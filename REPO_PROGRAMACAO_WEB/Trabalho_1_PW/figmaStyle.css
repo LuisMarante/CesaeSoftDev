@@ -1,0 +1,329 @@
+.container1{
+  
+   width: 100%;
+    height: 816px;
+    background-image: url(imagens/Hero.png); /* Substitua pelo caminho real da sua imagem */
+    background-size: cover; /* Para cobrir todo o container, mantendo a proporção */
+    background-repeat: no-repeat; /* Para evitar que a imagem se repita */ 
+}
+#p-container1{
+    color: white;
+
+    margin: 0;
+    position: absolute; 
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ 
+    font-family: 'Josefin Slab';
+    font-weight: 700;
+    font-size: 85px;
+    letter-spacing: 0%;
+
+}
+
+#p-container1 p{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+border: solid;
+border-color: white;
+
+}
+
+
+.navbar-nav{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 70px;
+    margin-right: 20px;
+  
+    
+}
+
+.nav-item{
+font-family: 'Jura';
+font-size: 25px;
+line-height: 118%;
+font-weight: 700;
+margin-top: 30px;
+
+}
+
+.container2{
+width: 100%;
+height: 569px;
+top: 816px;
+background: #B49B2C40;
+display: flex;
+}
+
+#caixaEsquerda{
+flex: 1;
+border-right: solid;
+border-width: 2px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Jura';
+font-size: 43px;
+height: 400px;
+margin-top: 80px;
+}
+
+#vivaLivre{
+width: 380px;
+}
+
+#caixaDireita{
+flex: 1;
+display: flex;
+flex-direction: column;
+}
+
+#cDireitaTop{
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#trabalhosRemotos{
+font-size: 30px;
+margin-top: 150px;
+font-family: 'Jura';
+    
+}
+
+
+#cDireitaBot{
+flex: 1;
+display: flex;
+justify-content: space-evenly;
+}
+
+#botEsquerda{
+display: flex;
+flex-direction: column;
+font-size: 20px;
+font-family: 'Jura';
+}
+
+#botDireita{
+display: flex;
+flex-direction: column;
+font-size: 20px;
+font-family: 'Jura';
+}
+
+.container3{
+width: 100%;
+height: 515px;
+top: 1385px;
+display: flex;
+}
+
+#tresCaixaEsquerda{
+width: 50%;
+background-image: url(imagens/pexels-gya-den-768256-2303781\ 2.png);
+background-size: cover;
+}
+
+#tresCaixaDireita{
+    width: 55%;
+    background-color: black;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+#tresCaixaDireita div{
+    height: 75px;
+}
+
+#descubra{
+    font-size: 30px;
+    font-family: 'Jura';
+    
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#escritorio{
+    
+    font-family: 'Jura';
+    font-size: 30px;
+   
+    width: 100px;
+}
+
+#descobrir{
+    font-size: 25px;
+    font-family: 'Jura';  
+    font-weight: 700;
+    line-height: 118%;
+    border: solid; 
+    border-radius: 50px;
+    width: 270px;
+    height: 50px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#seta{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    color: white;
+
+}
+
+
+.container4{
+    width: 1440px;
+    height: 541px;
+    top: 1900;
+    display: flex;
+}
+
+#quatroCaixaEsquerda{
+background:  #B49B2C40;
+width: 50%;
+height: 541px;
+
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+}
+
+#temosDestinos{
+font-size: 30px;
+font-family: 'Jura';
+top: 199px;
+
+}
+
+#especiais{
+font-size: 30px;
+font-family: 'Jura';
+margin-bottom: 20px;
+
+
+}
+
+#explorar{
+    font-size: 25px;
+    font-family: 'Jura';  
+    font-weight: 700;
+    line-height: 118%;
+    border: solid; 
+    border-radius: 50px;
+    width: 270px;
+    height: 50px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+
+
+}
+
+
+#quatroCaixaDireita{
+width: 50%;
+background-image: url(imagens/pexels-thatguycraig000-1546898\ 2.png);
+background-size: cover;
+}
+
+
+.container5{
+    width: 1440px;
+    height: 690.51px;
+    top: 2441.49px;
+    background-image: url(imagens/pexels-thepaintedsquare-583848\ 1.png);
+    background-size: cover;
+
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+
+#blog{
+background-color: black;
+color: white;
+width: 309px;
+height: 77px;
+border-radius: 35px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 300px;
+}
+
+
+footer{
+    width: 1440px;
+    height: 266px;
+    top: 3132px;
+   background-color: black;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: center;
+   gap: 20px;
+}
+
+#footerLiving{
+font-family: 'Jura';
+font-size: 30px;
+line-height: 118%;
+color: white;
+margin-bottom: 20px;
+}
+
+
+
+#redesSociais{
+    display: flex;
+    color: white;
+    margin-bottom: 20px;
+    gap: 25px;
+   
+}
+
+footer a img{
+width: 50px;
+}
+
+#Power{
+    font-family: 'Jura';
+    font-size: 15px;
+    line-height: 118%;
+    color: white;
+    margin-bottom: 40px;
+}
+
+/* CSS da página "acomodação"--------------> */
+
+

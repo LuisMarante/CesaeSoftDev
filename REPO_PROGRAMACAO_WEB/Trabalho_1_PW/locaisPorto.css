@@ -1,0 +1,253 @@
+body {
+    background-image: url(imagens/pexels-alex-andrews-271121-1203808\ 2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh; 
+    position: relative; 
+  }
+  
+  #corOpaca {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    z-index: 1; 
+  }
+  
+  
+  #acomodacaoHeader {
+    position: relative;
+    z-index: 2; 
+  }
+  
+  .navUpgrade {
+    display: flex;
+    justify-content: space-around;
+    gap: 400px;
+    margin-top: 30px;
+    
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 70px;
+    margin-right: 20px;
+    color: white;
+  }
+  
+  .nav-link {
+    font-family: 'Josefin Slab';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    font-weight: 200;
+  }
+  
+  .nav-item {
+    font-family: 'Jura';
+    font-size: 25px;
+    line-height: 118%;
+    font-weight: 700;
+    margin-top: 30px;
+  }
+  
+  .butaoInicial img {
+    width: 59px;
+    height: 70px;
+  }
+  
+  #body{
+    display: flex;
+  }
+
+  #rightSide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    max-width: 50%;
+    max-height: 642px;
+    margin-left: 150px;
+    margin-top: 200px;
+    justify-content: space-between;
+  }
+
+  #cantoInferiorDireito{
+    color: white;
+    width: 465px;
+    height: 206px;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+  }
+  #form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    background-color:#D9D9D9;
+  
+    border-radius: 35px;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 466px;
+    height: 642px;
+    margin-left: 200px;
+    margin-top: 200px;
+   
+  }
+  
+  .form-group {
+    
+    background-color:#D9D9D9;
+   
+   
+    opacity: 1;
+    
+    
+  }
+  
+  .form-group label {
+    width: 420px;
+    height: 30px;
+  
+    display: block;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+    background-color:#D9D9D9;
+    
+    font-family: 'Jura';
+font-weight: 700;
+font-size: 25px;
+line-height: 118%;
+letter-spacing: 0%;
+
+    
+  }
+  
+  #pais{
+    background-color: white;
+
+    font-family: 'Jura';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 118%;
+    letter-spacing: 0%;
+
+
+
+
+    
+  }
+  
+  #cidade{
+    background-color: white;
+
+    font-family: 'Jura';
+font-weight: 700;
+font-size: 25px;
+line-height: 118%;
+letter-spacing: 0%;
+
+
+
+
+
+
+  }
+  .select-wrapper {
+    
+    position: relative;
+    border-radius: 15px;
+    
+    background-color: transparent;
+    margin-bottom: 10px;
+    
+    overflow: hidden;
+  }
+  
+  .select-wrapper select {
+   
+    appearance: none; 
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    color: #555;
+    font-size: 16px;
+    height: 76px;
+    background-color: transparent;
+    
+  }
+  
+  .select-wrapper::after {
+    content: '\25BC'; 
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: black;
+    pointer-events: none; 
+    width: 30px;
+    height: 18px;
+}
+  
+  
+  #form-container button{
+    margin-top: 50px;
+    border-radius: 15px;
+    width: 345px;
+    height: 76px;
+  }
+  .button {
+    background-color: #686931;
+  
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+ 
+  width: 100%;
+  transition: background-color 0.3s ease;
+
+  font-family: 'Jura';
+font-weight: 700;
+font-size: 25px;
+line-height: 118%;
+letter-spacing: 0%;
+  }
+  
+  .button:hover {
+    background-color: #6c7833;
+  }
+  
+
+  #gpsPorto img{
+    max-width: 466px;
+    max-height: 363px;
+    border-radius: 10px;
+  }
+
+  #espaco{
+    height: 150px;
+  }
+
+  

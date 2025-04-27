@@ -1,38 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Jura:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Jura:wght@300..700&display=swap');
+
 body {
     background-image: url(imagens/pexels-jeremy-bishop-1260133-20146347\ 2.png);
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vh; 
-    position: relative; 
-    
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
 }
-  
-  #corOpaca {
+
+#corOpaca {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.6); 
-    z-index: 1; 
-  }
-  
-  
-  #acomodacaoHeader {
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+#acomodacaoHeader {
     position: relative;
-    z-index: 2; 
-    
-  }
-  
-  .navUpgrade {
+    z-index: 2;
+    width: 100%;
+    gap: 100px;
+}
+
+.navUpgrade {
     display: flex;
-    justify-content: space-around;
-    gap: 400px;
+    justify-content: space-between;
+    width: 100% !important;
     margin-top: 30px;
-    
-  }
-  
-  .navbar-nav {
+}
+
+.navbar-nav {
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
@@ -42,9 +44,10 @@ body {
     gap: 70px;
     margin-right: 20px;
     color: white;
-  }
-  
-  .nav-link {
+    width: 80%;
+}
+
+.nav-link {
     font-family: 'Josefin Slab';
     font-weight: 700;
     font-size: 25px;
@@ -52,42 +55,53 @@ body {
     letter-spacing: 0%;
     text-transform: uppercase;
     font-weight: 200;
-  }
-  
-  .nav-item {
+}
+
+.nav-item {
     font-family: 'Jura';
     font-size: 25px;
     line-height: 118%;
     font-weight: 700;
     margin-top: 30px;
-  }
-  
-  .butaoInicial img {
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        gap: 20px;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .nav-item {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+}
+
+.butaoInicial img {
     width: 59px;
     height: 70px;
-  }
-  
-  #corpo{
-display: flex;
-  }
+}
 
+#corpo {
+    display: flex;
+    width: 100%;
+    padding-top: 50px;
+}
 
-
-
-  #div{
+#div {
     position: relative;
-    z-index: 2; 
+    z-index: 2;
     color: white;
-
+    width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+}
 
-  }
-
-  .form-container{
-    
+.form-container {
     width: 467px;
     height: 700px;
     display: flex;
@@ -96,106 +110,94 @@ display: flex;
     justify-content: flex-start;
     background-color: black;
     border-radius: 30px;
-    margin-left: 200px;
-    margin-top: 200px;
-  }
+}
 
-
-  .form-container label{
+.form-container label {
     font-family: 'Jura';
     font-weight: 700;
     font-size: 20px;
     line-height: 118%;
     letter-spacing: 0%;
-    
+}
 
-  }
-
-  .form-group{
+.form-group {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    
-  }
+}
 
-  .form-group input{
-width: 338px;
-height: 76px;
-border-radius: 15px;
-  }
+.form-group input {
+    width: 338px;
+    height: 76px;
+    border-radius: 15px;
+}
 
-#mensagem{
+#mensagem {
     width: 338px;
     height: 161px;
     border-radius: 15px;
-  }
-
-  form button{
-width: 338px;
-height: 76px;
-border: solid;
-border-color: white;
-background-color: black;
-color: white;
-border-radius: 40px;
-margin-top: 80px;
-
-font-family: 'Jura';
-font-weight: 700;
-font-size: 25px;
-line-height: 118%;
-letter-spacing: 0%;
-
-  }
-
-
-#mensagemDireita{
-    position: relative;
-    z-index: 2; 
-    color: white;
-
-font-family: 'Jura';
-font-weight: 700;
-font-size: 25px;
-line-height: 118%;
-letter-spacing: 0%;
-text-align: center;
-
-display: flex;
-justify-content: flex-start;
-align-items: flex-start;
-flex-direction: column;
-
-margin-top: 250px;
-margin-left: 200px;
-
 }
-#mensagemDireita p{
+
+form button {
+    width: 338px;
+    height: 76px;
+    border: solid;
+    border-color: white;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    margin-top: 80px;
+    font-family: 'Jura';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 118%;
+    letter-spacing: 0%;
+}
+
+#mensagemDireita {
+    position: relative;
+    z-index: 2;
+    color: white;
+    font-family: 'Jura';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 118%;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#mensagemDireita p {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
-
-#citacao{
+#citacao {
     font-family: 'Jura';
-font-weight: 700;
-font-size: 20px;
-line-height: 118%;
-letter-spacing: 0%;
-width: 100%;
-
-display: flex;
-justify-content: flex-end;
-
-
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 118%;
+    letter-spacing: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
 
+@media (max-width: 1078px) {
+    #corpo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
 
-
-
-  #espaco{
+#espaco {
     height: 200px;
-  }
+}

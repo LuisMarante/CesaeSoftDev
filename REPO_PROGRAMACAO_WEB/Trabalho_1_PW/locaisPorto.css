@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Jura:wght@300..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Jura:wght@300..700&display=swap');
-
 
 body {
     background-image: url(imagens/pexels-alex-andrews-271121-1203808\ 2.png);
@@ -88,14 +86,12 @@ body {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-/* Área principal do conteúdo */
 #body {
     position: relative;
     z-index: 2;
     padding: 0 40px;
 }
 
-/* Criando explicitamente o layout flexbox para telas grandes */
 .content-row {
     display: flex;
     justify-content: center;
@@ -248,7 +244,7 @@ body {
     height: 150px;
 }
 
-/* Media queries para responsividade */
+
 @media (max-width: 1300px) {
     .navbar-nav {
         gap: 30px;
@@ -282,7 +278,7 @@ body {
     }
 }
 
-/* Ponto crítico: aqui alteramos para layout de coluna */
+
 @media (max-width: 992px) {
     .content-row {
         flex-direction: column;

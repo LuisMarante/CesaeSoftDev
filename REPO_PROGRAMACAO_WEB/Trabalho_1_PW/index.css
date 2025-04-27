@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Jura:wght@300..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Jura:wght@300..700&display=swap');
+
 
 * {
     box-sizing: border-box;
@@ -10,7 +10,6 @@
 body {
     overflow-x: hidden;
 }
-
 
 .hero-section {
     width: 100%;
@@ -239,7 +238,6 @@ body {
     height: auto;
     min-height: 515px;
     display: flex;
-
     gap: 0;
 }
 
@@ -265,7 +263,6 @@ body {
     background-image: url(imagens/pexels-gya-den-768256-2303781\ 2.png);
     background-size: cover;
     background-position: center;
-
 }
 
 #tresCaixaDireita {
@@ -471,7 +468,6 @@ body {
     color: inherit;
     font-size: 25px;
     font-family: 'jura';
-
 
 }
 

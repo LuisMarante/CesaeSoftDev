@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Jura:wght@300..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Jura:wght@300..700&display=swap');
+
 
 .navbar-nav {
     display: flex;
@@ -40,17 +40,13 @@
     background-image: url(imagens/pexels-lureofadventure-28365967\ 2.png);
     background-size: cover;
     background-position: top center;
-    /* Alterado para top center para manter o topo da imagem visível */
+
     background-repeat: no-repeat;
     min-height: 600px;
     width: 100%;
     display: flex;
     flex-direction: column;
-    /* Alterado para column para melhor controle do posicionamento */
-
-    /* Distribui o espaço verticalmente */
     align-items: flex-end;
-    /* Alinha os itens à direita */
     position: relative;
     overflow: hidden;
 }
@@ -74,8 +70,6 @@
     width: 100%;
     min-height: 146px;
     background-color: rgba(0, 0, 0, 0.8);
-
-    /* Posiciona no final do espaço flexível */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,18 +79,14 @@
     position: relative;
     z-index: 5;
     align-self: center;
-
     margin-top: 28vh;
-
-
-    /* Garante que o elemento esteja centralizado horizontalmente */
 }
 
 @media (max-width: 768px) {
     #acomodacaoHeader {
         width: 100% !important;
         background-position: top center;
-        /* Mantém o topo da imagem visível */
+
     }
 
     #novoOffice {

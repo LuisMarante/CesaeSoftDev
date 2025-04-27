@@ -6,7 +6,6 @@ body {
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,11 +57,7 @@ body {
 
 .botaoAlugar button {
     border-radius: 15px;
-
 }
-
-
-
 
 .button {
     background-color: #686931;
@@ -72,16 +67,12 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-
     width: 100%;
     transition: background-color 0.3s ease;
-
     font-family: 'Jura';
     font-weight: 700;
     font-size: 25px;
-
     letter-spacing: 0%;
-
 }
 
 
